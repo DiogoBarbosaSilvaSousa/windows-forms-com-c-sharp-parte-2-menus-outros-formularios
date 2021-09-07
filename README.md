@@ -1,4 +1,4 @@
-# Windows Forms com C#: Menus, outros formulários e validação com login e senha
+# Windows Forms com C#(Parte 2): Menus, outros formulários e validação com login e senha
 - Construa um aplicativo do Windows Forms com mais recursos
 - Crie um menu e customize-o com imagens, teclas de atalho e ações para cada item de menu
 - Conheça os formulários MDI
