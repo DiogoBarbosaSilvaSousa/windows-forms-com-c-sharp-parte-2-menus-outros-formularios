@@ -1,28 +1,22 @@
-﻿using System;
+﻿using CursoWindowsFormsBiblioteca;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CursoWindowsFormsBiblioteca;
 
 namespace CursoWindowsForms
 {
-    public partial class Frm_ValidaSenha : Form
+    public partial class Frm_ValidaSenha_UC : UserControl
     {
         bool VerSenhaTxt = false;
-        public Frm_ValidaSenha()
+        public Frm_ValidaSenha_UC()
         {
             InitializeComponent();
-        }
-
-        private void Form_ValidaSenha_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void Btn_Reset_Click(object sender, EventArgs e)

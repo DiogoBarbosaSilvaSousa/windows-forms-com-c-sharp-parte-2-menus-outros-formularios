@@ -27,5 +27,20 @@ namespace CursoWindowsForms
         {
             lbl_Titulo.Text = Txt_ConteudoLabel.Text;
         }
+
+        private void Txt_ConteudoLabel_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Titulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frm_HelloWorld_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

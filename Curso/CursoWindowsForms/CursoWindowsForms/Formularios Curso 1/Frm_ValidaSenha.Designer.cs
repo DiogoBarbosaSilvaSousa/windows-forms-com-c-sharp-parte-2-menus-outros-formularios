@@ -45,7 +45,6 @@ namespace CursoWindowsForms
             this.Txt_Senha.PasswordChar = '*';
             this.Txt_Senha.Size = new System.Drawing.Size(218, 20);
             this.Txt_Senha.TabIndex = 0;
-            this.Txt_Senha.TextChanged += new System.EventHandler(this.Txt_Senha_TextChanged);
             this.Txt_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Senha_KeyDown);
             // 
             // Lbl_Resultado
