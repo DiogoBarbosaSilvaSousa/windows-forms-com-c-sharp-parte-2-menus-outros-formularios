@@ -48,7 +48,8 @@ namespace CursoWindowsForms
             // 
             // Btn_Sair
             // 
-            this.Btn_Sair.Location = new System.Drawing.Point(638, 415);
+            this.Btn_Sair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Sair.Location = new System.Drawing.Point(278, 147);
             this.Btn_Sair.Name = "Btn_Sair";
             this.Btn_Sair.Size = new System.Drawing.Size(150, 23);
             this.Btn_Sair.TabIndex = 1;
@@ -77,7 +78,7 @@ namespace CursoWindowsForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(440, 182);
             this.Controls.Add(this.Btn_ModificaLabel);
             this.Controls.Add(this.Txt_ConteudoLabel);
             this.Controls.Add(this.Btn_Sair);
